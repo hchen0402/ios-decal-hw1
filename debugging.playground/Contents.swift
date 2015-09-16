@@ -41,8 +41,7 @@ class Foo {
     }
     
 //: [EXPLAIN YOUR ANSWER TO Q2 HERE]
-/*  let is creating a constant, and var is creating variable. And it should true at the end of the loop because the return type is Bool! which means 
-    it must return true or false. */
+/*  let is creating a constant, and var is creating variable. In for loop, it declare i as a constant and try to increment it, so the compiler does not like for loop. And it should true at the end of the loop because the return type is Bool! which means it must return true or false. */
     
     
 //: ## Q3: More functions, and object initialization
