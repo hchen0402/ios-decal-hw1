@@ -41,7 +41,9 @@ class Foo {
     }
     
 //: [EXPLAIN YOUR ANSWER TO Q2 HERE]
-/*  let is creating a constant, and var is creating variable. In for loop, it declare i as a constant and try to increment it, so the compiler does not like for loop. And it should true at the end of the loop because the return type is Bool! which means it must return true or false. */
+/*  let is creating a constant, and var is creating variable. In for loop, it declare i as a constant 
+    and try to increment it, so the compiler does not like for loop. And it should true at the end of 
+    the loop because the return type is Bool! which means it must return true or false. */
     
     
 //: ## Q3: More functions, and object initialization
@@ -87,10 +89,12 @@ class Foo {
 }
 
 //: [EXPLAIN YOUR ANSWER TO Q3 HERE]
-/*  let is creating a constant, and var is creating variable. Also, create a empty dictionary should like this var countLetters = [Character : Int](), In addition, since
-    lenA and lenB are the length of two arrays, it will not change later, thus, it is better to declare them as constant by using let. The method only returns true or false, 
-    that means the return type should be Bool! becuase we are sure that it has something inside, thus, we can unwrap it there. I also changed return nill to return true at the end     
-    of the method. */
+/*  let is creating a constant, and var is creating variable. Also, create a empty dictionary should 
+    like this var countLetters = [Character : Int](), In addition, since lenA and lenB are the length 
+    of two arrays, it will not change later, thus, it is better to declare them as constant by using 
+    let. The method only returns true or false, that means the return type should be Bool! becuase we 
+    are sure that it has something inside, thus, we can unwrap it there. I also changed return nill 
+    to return true at the end of the method. */
 
 
 //: **Do not** change anything below.
